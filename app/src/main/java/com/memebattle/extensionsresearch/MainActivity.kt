@@ -1,8 +1,8 @@
 package com.memebattle.extensionsresearch
 
-import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.memebattle.goldextensions.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,11 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         log("Hello")
-        snack("Extensions")
-        toast("")
-        alertChoose("lol", DialogInterface.OnClickListener { dialog, which ->
-            snack("qqqqq")
-            dialog.cancel()
-        })
+        snack("Fucking")
+        toast("Extensions")
+        alertInfo("Enjoy!")
     }
 }
